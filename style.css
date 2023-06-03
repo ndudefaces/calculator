@@ -13,3 +13,48 @@ body{
     margin: 15px;
     font-size: 40px;
 }
+
+.number{
+    border: 1px solid steelblue;
+    border-radius: 10px;
+}
+
+.number:hover{
+    background-color: lightblue;
+}
+
+.operator{
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+}
+
+.operator:hover{
+    background-color: bisque;
+}
+
+.decimal{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.decimal:hover{
+    background-color: silver;
+}
+
+.equal{
+    border: 1px solid plum;
+    border-radius: 10px;
+}
+
+.equal:hover{
+    background-color: lightpink;
+}
+
+#clear-btn{
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+#clear-btn:hover{
+    background-color: orangered;
+}
