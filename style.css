@@ -51,10 +51,36 @@ body{
 }
 
 #clear-btn{
-    border: 1px solid red;
+    border: 1px solid salmon;
     border-radius: 10px;
 }
 
 #clear-btn:hover{
-    background-color: orangered;
+    background-color: salmon;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen{
+    width: 300px;
+    border: 1px solid cornflowerblue;
+    height: 75px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.current{
+    font-size: 30px;
 }
