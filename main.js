@@ -65,7 +65,8 @@ function calculate(){
     } 
 
     previousValue = roundNumber(previousValue);
-    console.log(previousValue);
+    previousValue = previousValue.toString();
+    currentValue = previousValue.toString();
 }
 
 function roundNumber(num){
