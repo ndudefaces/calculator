@@ -64,5 +64,10 @@ function calculate(){
         previousValue /= currentValue;
     } 
 
+    previousValue = roundNumber(previousValue);
     console.log(previousValue);
+}
+
+function roundNumber(num){
+    return Math.round(num * 1000) / 1000;
 }
