@@ -37,17 +37,17 @@ document.addEventListener('DOMContentLoaded', function(){
         if(currentValue != '' && previousValue != ''){
         calculate()
         previousScreen.textContent = '';
-        if(previousValue.length <= 5){
+        if(previousValue.length <= 10){
             currentScreen.textContent = previousValue;
         } else{
-            currentScreen.textContent = previousValue.slice(0,5) + '...';
+            currentScreen.textContent = previousValue.slice(0,10) + '...';
         }
         }
     })
 })
 
 function handleNumber(num){
-    if(currentValue.length <= 5){
+    if(currentValue.length <= 10){
         currentValue += num;
     }
 }
@@ -78,5 +78,5 @@ function calculate(){
 }
 
 function roundNumber(num){
-    return Math.round(num * 1000) / 1000;
+    return Math.round(num * 10000) / 10000;
 }
