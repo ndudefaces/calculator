@@ -1,1 +1,1 @@
-# calculator
+Welcome to my calculator project! This was expectedly quite challenging, and I had to continually look back to previous lessons and look things up to make sure I was putting things in the right place. I had to take a few several day-long breaks to map things out manually and do research, then jump back in to see if the code would execute the way I wanted. Seeing it all come together definitely make it worth it though!
