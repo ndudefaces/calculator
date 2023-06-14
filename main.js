@@ -56,5 +56,13 @@ function calculate(){
 
     if(operator === '+'){
         previousValue += currentValue;
-    }
+    } else if(operator === '-'){
+        previousValue -= currentValue;
+    } else if(operator === 'x'){
+        previousValue *= currentValue;
+    } else{
+        previousValue /= currentValue;
+    } 
+
+    console.log(previousValue);
 }
