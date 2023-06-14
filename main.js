@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function(){
     })
 
     equal.addEventListener('click', function(){
+        if(currentValue != '' && previousValue != ''){
         calculate()
         previousScreen.textContent = '';
         if(previousValue.length <= 5){
@@ -41,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function(){
         } else{
             currentScreen.textContent = previousValue.slice(0,5) + '...';
         }
-        
+        }
     })
 })
 
